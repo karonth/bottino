@@ -4,3 +4,6 @@ Le dimensioni compatte e la connettività wifi permettono di integrarlo in ogget
 
 
 Lo trovate su telegram come @Bottino_bot  
+
+
+Per disegnare altre faccine usare http://xantorohara.github.io/led-matrix-editor
