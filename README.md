@@ -4,7 +4,7 @@ Le dimensioni compatte e la connettività wifi permettono di integrarlo in ogget
 
 Lo trovate su telegram come @Bottino_bot  
 
-Per compilare sulla scheda Wemos D1 mini avrete bisogno del core esp8266 per Arduino: https://github.com/esp8266/Arduino
+Per compilare sulla scheda Wemos D1 mini (driver usb https://wiki.wemos.cc/downloads) avrete bisogno del core esp8266 per Arduino: https://github.com/esp8266/Arduino
 La veresione usata è la 2.2.0, le istruzioni per l'installazione le trovate nel repository sopra.
 
 
