@@ -2,8 +2,16 @@
 Bottino è un bot telegram, sviluppato in arduino e basato su una matrice a led.
 Le dimensioni compatte e la connettività wifi permettono di integrarlo in oggetti IOT per dare una dimensione fisica all'interazione virtuale.
 
-
 Lo trovate su telegram come @Bottino_bot  
 
+Per compilare sulla scheda Wemos D1 mini avrete bisogno del core esp8266 per Arduino: https://github.com/esp8266/Arduino
+La veresione usata è la 2.2.0, le istruzioni per l'installazione le trovate nel repository sopra.
 
-Per disegnare altre faccine usare http://xantorohara.github.io/led-matrix-editor
+
+Il collegamento a Telegram è gestito da https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot e https://github.com/bblanchon/ArduinoJson ; installatele dal gestore delle librerie interno dell'ide Arduino
+
+Dovrete creare un nuovo bot parlando col BotFather di telegram e usare il token nel programma. 
+
+Al momento il bot supporta tre emoticon, ma potrete aggiungerne a piacimento.
+
+Per disegnare altre faccine potete usare http://xantorohara.github.io/led-matrix-editor
