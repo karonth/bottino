@@ -15,15 +15,19 @@ Una piccola nota: certe versioni della librerie LedControl possono dare un error
 
 in questo caso basta modificare il file LedControl.h sostituendo:
 
+```c
 #include <avr\pgmspace.h>
+```
 
 con
 
+```c
 #if (defined(AVR))
 #include <avr\pgmspace.h>
 #else
 #include <pgmspace.h>
 #endif
+```
 
 Dovrete creare un nuovo bot parlando col BotFather di telegram e usare il token nel programma. 
 
