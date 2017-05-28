@@ -10,6 +10,21 @@ La veresione usata è la 2.2.0, le istruzioni per l'installazione le trovate nel
 
 Il collegamento a Telegram è gestito da https://github.com/witnessmenow/Universal-Arduino-Telegram-Bot e https://github.com/bblanchon/ArduinoJson ; installatele dal gestore delle librerie interno dell'ide Arduino
 
+La libreria LedControl https://github.com/wayoda/LedControl/ gestisce la matrice a led; serve per la compilazione. 
+Una piccola nota: certe versioni della librerie LedControl possono dare un errore sull'include di avr\pgmspace.h
+
+in questo caso basta modificare il file LedControl.h sostituendo:
+
+#include <avr\pgmspace.h>
+
+con
+
+#if (defined(AVR))
+#include <avr\pgmspace.h>
+#else
+#include <pgmspace.h>
+#endif
+
 Dovrete creare un nuovo bot parlando col BotFather di telegram e usare il token nel programma. 
 
 Al momento il bot supporta tre emoticon, ma potrete aggiungerne a piacimento.
